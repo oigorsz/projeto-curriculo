@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
+:root {
+   --color-green1: #038C65;
+   --color-green2: #02735E;
+   --color-green3: #025959;
+   --color-green4: #012E40;
+   --color-green5: #011526; 
+
+   --color-white0: #fff;
+   --color-white1: #EBEDF2;
+
+   --color-dark0: #162226;
+   --color-dark1:#111111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins";
+    background-color: var(--color-green5);
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-white0);
+    padding: 15px 20px;
+    gap: 1rem;
+    width: 400px;
+    height: 100%;
+}
+
+#profile_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#profile_box h1 {
+    font-size: 1.6rem;
+    
+}
+
+#img_profile {
+    background-image: url(../assets/foto.JPG) ;
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+#about_box, #projects_box, #school_box  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.h2 {
+    text-align: left;
+    justify-content: left;
+}
+
+.a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+#information_box ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
